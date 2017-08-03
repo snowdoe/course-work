@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--<AnchorPane xmlns="http://javafx.com/javafx"-->
+<!--xmlns:fx="http://javafx.com/fxml"-->
+<!--fx:controller="Main"-->
+<!--prefHeight="400.0" prefWidth="600.0">-->
+
+<!--</AnchorPane>-->
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<HBox spacing="20" xmlns:fx="http://javafx.com/fxml" fx:controller="Controller">
+    <ImageView fx:id="image" fitHeight="100.0" fitWidth="100">
+        <image>
+            <!--<Image url="@../../../resources/image1.jpg"/>-->
+        </image>
+    </ImageView>
+    <Label fx:id="tempLabel" text="Temperatura to: "/>
+</HBox>
